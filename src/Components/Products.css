@@ -1,0 +1,33 @@
+.grid-container {
+    display: grid;
+    width: 60%;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+padding: 20px;
+text-align: center;
+}
+
+
+.item-image{
+    height: 200px;
+    margin: 25px 0px;
+}
+
+.price-tag{
+    padding: 10px;
+    color: rgb(210,73,69);
+    font-weight: 600;
+}
+
+.product_name{
+    min-height: 30px;
+    color: rgb(97,116,132);
+}
+.packing{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+    font-family: afta-italy;
+}

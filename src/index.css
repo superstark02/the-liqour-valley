@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'afta';
+  src: local('afta'), url(./Fonts/afta-serif/AftaSerifThin-Regular.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'afta-italy';
+  src: local('afta-italy'), url(./Fonts/afta-serif/AftaSerifThin-Italic.otf) format('truetype');
+}

@@ -1,0 +1,28 @@
+.app-bar{
+    position: sticky;
+    width: 100%;
+    padding: 20px 0px;
+    background-color: white;
+}
+
+.menu-container{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    width: 100%;
+}
+
+.menu-item{
+    margin: 10px;
+    cursor: pointer;
+}
+
+.logo{
+    width: 100%;
+}
+
+.menu-item:hover{
+    border-bottom: rgb(210,73,69) 2px solid;
+    color: rgb(210,73,69);
+}
+

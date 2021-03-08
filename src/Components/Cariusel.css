@@ -18,7 +18,7 @@ header section {
   max-width: 1300px;
   margin: auto;
   padding: 20px;
-  background: #FFD800;
+  background: rgb(210,73,69)  ;
 }
 
 @media (max-width: 1515px) {
@@ -50,14 +50,15 @@ button {
   -webkit-transition: all .5s ease;
           transition: all .5s ease;
   border: none;
-  background: #FFD800;
+  background: rgb(210,73,69);
   border-radius: 30px;
   text-transform: uppercase;
   box-sizing: border-box;
   padding: 15px 40px;
   font-weight: 400;
   font-size: 13px;
-  cursor: cursor;
+  cursor: pointer;
+  color: #FFFFFF;
 }
 
 button:hover {
@@ -111,7 +112,7 @@ button:hover {
 		top: 50%;
 		transform: translateY(-50%);
 		z-index: 10;
-		background: url('https://img.icons8.com/color/48/000000/chevron-right.png') no-repeat center center / 25px;
+		background: url('https://img.icons8.com/metro/26/fa314a/chevron-right.png') no-repeat center center / 45px;
 		width: 52px;
 		height: 52px;
 		text-indent: -9999px;
@@ -119,7 +120,7 @@ button:hover {
 }
 
 .previousButton:hover, .nextButton:hover {
-  background: url('https://img.icons8.com/color/48/000000/chevron-right.png') no-repeat center center / 25px;
+  background: url('https://img.icons8.com/metro/26/fa314a/chevron-right.png') no-repeat center center / 45px;
 }
 
 .previousButton {

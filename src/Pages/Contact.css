@@ -1,0 +1,25 @@
+.contact-bg{
+    background-image: url(https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/quizzes/alcohol_myths_and_facts_quiz/650x350_alcohol_myths_and_facts_quiz.jpg?resize=692px:*);
+    height: 75vh;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.standard-input{
+    margin: 10px 0px;
+    padding: 10px;
+    outline: none;
+  }
+  
+  .standard-button{
+    color: white;
+    background-color: rgb(210,73,69);
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }

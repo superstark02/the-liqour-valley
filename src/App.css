@@ -12,3 +12,28 @@ body, div{
 html{
     font-family: afta;
 }
+
+.mobile{
+    display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+}
+
+a a:active a:visited{
+    text-emphasis: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+Link, a , link {
+    text-decoration: none;
+    text-emphasis: none;
+    color: inherit;
+  }

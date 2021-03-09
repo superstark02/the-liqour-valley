@@ -1,21 +1,35 @@
 import React, { Component } from 'react'
 import "../Pages/Home.css"
+import "./Footer.css"
 
 export class Footer extends Component {
     render() {
         return (
-            <div className="wrap" style={{ color: "#6A7375", padding: "30px 0px", marginTop: "90px", backgroundColor: "black" }} >
+            <div className="wrap" style={{
+                color: "white", padding: "30px 0px",
+                marginTop: "90px",
+                backgroundColor: "rgb(210,73,69)",
+            }} >
                 <div className="width-change" >
                     <div style={{ display: "flex", padding: "20px 0px" }} >
-                        <div style={{ marginRight: "20px" }} >
-                            Contact
+                        <a href="/contact" >
+                            <div style={{ marginRight: "10px" }} >
+                                Contact
                             </div>
-                        <div style={{ marginRight: "20px" }} >
-                            CAP ( Jan-Feb 2021 )
+                        </a>
+                        <a href="/about" >
+                            <div style={{ marginRight: "10px" }} >
+                                About Us
                             </div>
+                        </a>
+                        <a href="/contact" >
+                            <div style={{ marginRight: "10px" }} >
+                                Catalogue
+                            </div>
+                        </a>
                         <a href="https://play.google.com/store/apps/details?id=com.pidgin.mosaic" >
-                            <div style={{ marginRight: "20px" }} >
-                                App
+                            <div style={{ marginRight: "10px" }} >
+                                MOSAIC
                             </div>
                         </a>
                     </div>
@@ -23,9 +37,9 @@ export class Footer extends Component {
                         Mosaic India
                     </div>
                     <div style={{ padding: "20px 0px" }} >
-                        © 2020 MOSAIC. All Rights Reserved. All related channel and programming logos are service
+                        © 2021 The Liqour Valley. All Rights Reserved. All related channel and programming logos are service
                         marks of, and all related programming
-                        visuals and elements are the property of, MOSAIC. All rights reserved.
+                        visuals and elements are the property of, The Liqour Valley. All rights reserved.
                     </div>
                 </div>
             </div>

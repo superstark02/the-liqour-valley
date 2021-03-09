@@ -4,7 +4,6 @@ import Footer from '../Components/Footer'
 import Products from '../Components/Products'
 import AppBar from '../Components/AppBar';
 import "./Home.css"
-import { editDoc } from '../Database/dbfunctions';
 
 export class Home extends Component {
 

@@ -30,6 +30,7 @@ text-align: center;
     min-height: 30px;
     color: rgb(97,116,132);
 }
+
 .packing{
     color: rgb(210,73,69);
     font-size: 13px;
@@ -59,4 +60,15 @@ text-align: center;
     padding: 10px;
     border-radius: 10px;
     height: fit-content;
+}
+
+@media only screen and (max-width: 1024px) {
+    .grid-container{
+        grid-template-columns: 1 auto auto;
+        padding: 0;
+        display: block;
+    }
+    .grid-outer-container{
+        width: 100%;
+    }
 }

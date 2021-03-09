@@ -1,0 +1,27 @@
+.about-bg{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-image: url(https://macadoodles.com/wp-content/uploads/2019/04/SFIEC_blog.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+    z-index: -1;
+}
+
+.width-change{
+    margin-top: 50px;
+    width: 70%;
+}
+
+@media screen and (max-width: 1024px) {
+    .about-bg{
+        height: 60vh;
+    }
+    .width-change{
+        width: 80%;
+    }
+    ul{
+        margin: 0;
+    }
+}
